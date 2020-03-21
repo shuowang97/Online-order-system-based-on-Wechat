@@ -1,0 +1,35 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.2.135/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    host: 192.168.2.135
+    port: 6379
+
+server:
+  context-path: /sell
+
+wechat:
+  mpAppId: wx76a150abf794e7c2
+  mpAppSecret: 59893fa29a117de60bb5bb207fc39102
+  openAppId: wx6ad144e54af67d87
+  openAppSecret: 91a2ff6d38a2bbccfb7e9f9079108e2e
+
+  templateId:
+    orderStatus: CyORkCQF3QMifeqz-CA2mhvYO5oGWshuITlFsiBih5w
+    newOrder: dhODvax8l0fMrRTMIEVIPrLRHZgB9hbMtDM1UMOdem4
+
+
+
+
+projectUrl:
+  wxMpAuthorize: http://sellsell.nat100.top
+  wxOpenAuthorize: http://sellsell.nat100.top
+  sell: http://sellsell.nat100.top
+
